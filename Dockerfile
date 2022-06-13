@@ -2,30 +2,19 @@ FROM ubuntu:20.04
 
 ## ARG ##
 ARG DEBIAN_FRONTEND=noninteractive
-ARG adminPass=0786
-ARG mysqlPass=12345
+
 ARG pythonVersion=python3
 ARG appBranch=version-13
-ARG dbuser=root
-ARG hname=mariadbb
 ARG frappath=/home/frappe/frappe-bench
 
 ## ENV SETUP ##
 ENV systemUser=frappe
-# locales
-#ENV LANGUAGE=en_US \
-#    LANG=en_US.UTF-8 \
-#    LC_ALL=en_US.UTF-8
 # frappe
 ENV benchPath=bench-repo \
-    benchFolderName=bench \
     benchRepo="https://github.com/frappe/bench" \
-    # Hot-fix: master branch didn't get jinja version bump and causing the error
-    # https://github.com/frappe/bench/pull/1270
     benchBranch=v5.x \
     frappeRepo="https://github.com/frappe/frappe" \
     erpnextRepo="https://github.com/frappe/erpnext" \
-    siteName=site1.local
 
 RUN apt-get update && apt-get upgrade -y && apt-get install sudo -y 
 
@@ -71,7 +60,6 @@ RUN sudo apt-get update && sudo apt-get upgrade -y \
 && sudo -H pip3 install frappe-bench \
 && bench --version \
 && sudo chown frappe -R /home/frappe \
-#&& su frappe\ 
 && sudo apt-get install cron -y \ 
 && bench init /home/frappe/frappe-bench --frappe-path https://github.com/frappe/frappe --frappe-branch version-13 --python python3
 
