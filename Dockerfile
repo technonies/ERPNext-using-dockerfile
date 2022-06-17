@@ -14,7 +14,7 @@ ENV benchPath=bench-repo \
     benchRepo="https://github.com/frappe/bench" \
     benchBranch=v5.x \
     frappeRepo="https://github.com/frappe/frappe" \
-    erpnextRepo="https://github.com/frappe/erpnext" \
+    erpnextRepo="https://github.com/frappe/erpnext" 
 
 RUN apt-get update && apt-get upgrade -y && apt-get install sudo -y 
 
