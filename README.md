@@ -1,3 +1,4 @@
+https://img.shields.io/badge/Build-Passing-brightgreen
 # ERPNext-Installation-within-docker-
 
 Credentials: 
