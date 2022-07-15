@@ -1,4 +1,4 @@
-https://img.shields.io/badge/Build-Passing-brightgreen
+![example workflow](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
 # ERPNext-Installation-within-docker-
 
 Credentials: 
