@@ -1,4 +1,3 @@
-<img src="https://github.com/Requarks/wiki/actions/workflows/build.yml/badge.svg" alt="Build" style="max-width: 100;">
 
 Credentials:    
 		
