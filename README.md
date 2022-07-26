@@ -1,11 +1,16 @@
-<center><img src="https://github.com/Requarks/wiki/actions/workflows/build.yml/badge.svg" alt="Build" style="max-width: 100%;"></center>
+<img src="https://github.com/Requarks/wiki/actions/workflows/build.yml/badge.svg" alt="Build" style="max-width: 100;">
 
 Credentials:    
+		
+		MARIADB PASSWORD=12345 
+		
 		ERP -> user=administrator  password=321
 
 ---------------------------------------------------------------------------------------------
 STEP-1: PULL 
+
 		--> docker pull technonies/erpnextdb
+		
 	        --> docker pull technonies/erpnext
 
 
