@@ -1,8 +1,6 @@
-<center><a href="https://github.com/Requarks/wiki/actions/workflows/build.yml"><img src="https://github.com/Requarks/wiki/actions/workflows/build.yml/badge.svg" alt="Build" style="max-width: 100%;"></a></center>
+<center><img src="https://github.com/Requarks/wiki/actions/workflows/build.yml/badge.svg" alt="Build" style="max-width: 100%;"></center>
 
-Credentials: 
-		MARIADB PASSWORD=12345 
-		  
+Credentials:    
 		ERP -> user=administrator  password=321
 
 ---------------------------------------------------------------------------------------------
