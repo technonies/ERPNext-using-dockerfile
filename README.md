@@ -1,5 +1,4 @@
-![example workflow](https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg)
-# ERPNext-Installation-within-docker-
+<a href="https://github.com/Requarks/wiki/actions/workflows/build.yml"><img src="https://github.com/Requarks/wiki/actions/workflows/build.yml/badge.svg" alt="Build + Publish" style="max-width: 100%;"></a>
 
 Credentials: 
 MARIADB_ROOT_PASSWORD=12345
